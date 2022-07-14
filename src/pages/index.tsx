@@ -22,6 +22,12 @@ export default function IndexPage() {
     setCurrentView("overview");
   }, [planet]);
 
+  const imagePath = [
+    `/src/assets/planet-${planet}.svg`,
+    `/src/assets/planet-${planet}-internal.svg`,
+    `/src/assets/geology-${planet}.png`,
+  ];
+
   return (
     <Layout
       active={currentView}
@@ -30,9 +36,9 @@ export default function IndexPage() {
     >
       <PlanetsPic
         currentView={currentView}
-        overviewPath={`/src/assets/planet-${planet}.svg`}
-        internalPath={`/src/assets/planet-${planet}-internal.svg`}
-        surfacePath={`/src/assets/geology-${planet}.png`}
+        overviewPath={imagePath[0]}
+        internalPath={imagePath[1]}
+        surfacePath={imagePath[2]}
       />
       <PlanetInformation
         currentView={currentView}
