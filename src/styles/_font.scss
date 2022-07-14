@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+h1,
+h2 {
+  font-family: "Antonio", sans-serif;
+}
+
+h3, h4, p{
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 103px;
+}
+h2{
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -1.5px;
+}
+h3{
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2.6px;
+}
+h4{
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 14px;
+    line-height: 25px;
+}
