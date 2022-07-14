@@ -23,9 +23,9 @@ export default function IndexPage() {
   }, [planet]);
 
   const imagePath = [
-    `/src/assets/planet-${planet}.svg`,
-    `/src/assets/planet-${planet}-internal.svg`,
-    `/src/assets/geology-${planet}.png`,
+    `/planet-${planet}.svg`,
+    `/planet-${planet}-internal.svg`,
+    `/geology-${planet}.png`,
   ];
 
   return (

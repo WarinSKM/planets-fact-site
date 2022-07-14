@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import HamburgerIcon from "../assets/icon-hamburger.svg";
 import type { Planets } from "../models/planet";
 
 export default function Navbar() {

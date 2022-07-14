@@ -4,7 +4,7 @@ import type {
   Information,
   CurrentPageInformation,
 } from "../models/planet";
-import iconSource from "../assets/icon-source.svg";
+import iconSource from "/icon-source.svg";
 
 interface PlanetInformationProp {
   data: Information;

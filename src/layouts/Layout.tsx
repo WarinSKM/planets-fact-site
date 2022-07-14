@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import backgroundStars from "../assets/background-stars.svg";
 
 import Navbar from "./Navbar";
 import DesktopButtons from "../components/DesktopButtons";
