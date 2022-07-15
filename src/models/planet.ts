@@ -15,6 +15,11 @@ interface Information {
   overview: string;
   internal: string;
   surface: string;
+  source: {
+    overview: string;
+    internal: string;
+    surface: string;
+  };
   information: Array<{ title: string; value: string; unit: string }>;
 }
 

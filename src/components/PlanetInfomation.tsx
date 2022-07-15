@@ -23,7 +23,7 @@ const PlanetInformation: React.FC<PlanetInformationProp> = ({
       <p className="w-full mb-2">{data[currentView]}</p>
       <p className="text-light">
         Source :{" "}
-        <a href="/" className="underline" target="_blank">
+        <a href={data.source[currentView]} className="underline" target="_blank">
           Wikipedia
           <img className="inline ml-2" src={iconSource} />
         </a>
